@@ -1,0 +1,32 @@
+* {
+  background-color: #333;
+  color:white;
+}
+
+.navlinks ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navlinks li {
+  float: left;
+}
+
+.navlinks li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.navlinks li a:hover {
+  background-color: #111;
+}
+.navlinks li a:active {
+  background-color: #04a2aa;
+}
