@@ -1,0 +1,45 @@
+.projects h3 {
+    text-align: center;
+    margin-top:50px;
+}
+
+.projects img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.projects-card {
+    position: relative;
+}
+
+.projects-card h1 {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 28px;
+    padding: 2%;
+    cursor: pointer;
+    display: none;
+}
+
+.projects-card:hover h1 {
+    display: block;
+}
+
+.projects-card img {
+    background-color: black;
+}
+
+.projects-card:hover img{
+    opacity: .25;
+}
+
+

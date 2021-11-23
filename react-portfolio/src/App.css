@@ -30,22 +30,3 @@
 .navlinks li a:active {
   background-color: #04a2aa;
 }
-.imgCard img{
-  display: flex;
-  width: 150px;
-  height: auto;
-  border-radius: 100px;
-  padding: 20px;
-}
-
-.infoCard {
-  padding-left: 200px;
-  padding-right: 20px;
-}
-
-.infoCard h2 {
-  display: inline-block;
-}
-.infoCard li {
-  font-weight: bolder;
-}

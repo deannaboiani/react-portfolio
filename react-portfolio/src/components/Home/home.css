@@ -1,0 +1,33 @@
+.homeContent {
+  display: flex;
+}
+
+.imgCard img{
+    display: flex;
+    width: 200px;
+    height: auto;
+    border-radius: 100px;
+    padding: 20px;
+    margin-top:50px;
+  }
+  
+  .infoCard p {
+    padding-left: 50px;
+    padding-right: 100px;
+    margin-top:50px;
+    text-align: justify;
+  }
+  
+  .infoCard li {
+    text-align:left;
+  }
+  
+  .infoCard h2 {
+    display: flex;
+    padding-left: 50px;
+    margin-top:50px;
+    color:lightseagreen;
+  }
+  .infoCard li {
+    font-weight: bolder;
+  }
